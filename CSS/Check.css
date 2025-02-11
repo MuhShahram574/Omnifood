@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  /* background-color: darkviolet; */
+  font-size: 24px;
+  font-family: sans-serif;
+  height: 120rem;
+margin-top: 120rem;
+}
+form {
+  display: none;
+}
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  border: 2px solid gray;
+  font-size: 24px;
+  background: none;
+  background-color: lightpink;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input {
+  padding: 12px 24px;
+  outline: none;
+}
+
+/* This is the Styling of  Footer Section of Omnifood Project */
+
+.container {
+  width: 120rem;
+  padding: 0 3rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+/* __________________________________________ */
+/* FROM GENERAL STYLING */
+/* __________________________________________ */
+
+.Footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 3rem;
+}
+.footer-description {
+  font-size: 1.6rem;
+  display: inline-block;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ----------------------- */
+/* FOOTER STYLING START */
+/* -------------------------- */
+.Footer-section {
+  margin-top: 6.8rem;
+  background-color: white;
+  padding: 2rem 0;
+}
+.footer-col {
+  display: grid;
+  grid-template-columns: 1.5fr 1.3fr 1fr 1fr 1fr;
+  gap: 4.8rem;
+}
+.footer-logo {
+  margin-bottom: 2.4rem;
+  display: block;
+}
+.social-link {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-bottom: 4.8rem;
+}
+
+.social-link a {
+  color: #555;
+}
+
+.social-link ion-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 4px;
+}
+.social-link ion-icon:hover {
+  background-color: #ddd;
+}
+
+.footer-logo img {
+  height: 1.8rem;
+}
+
+/* contact-col Styling */
+
+.contact-col .footer-description {
+  margin-bottom: 3rem;
+  /* background-color: green;   */
+}
+
+.Contact {
+  text-decoration: none;
+  color: #666;
+  font-size: 1.6rem;
+}
+
+.nav-col-ul {
+  list-style: none;
+}
+.nav-col-ul li a {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #666;
+  margin-bottom: 1.6rem;
+}
+
+/* __________________________________________ */
+/* Practice STYLING */
+/* __________________________________________ */
+
+header {
+  background-color: powderblue;
+  padding: 1.6rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+gap: 5rem;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(60, 48, 48);
+  font-size: 1.8rem;
+  
+}
+
+nav ul li a:hover{
+background-color: red;
+}
+
+.logo {
+  height: 3rem;
+}
+
+
+/* This is the styling of content */
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.content {
+  animation: slideUp 0.8s ease-out;
+}

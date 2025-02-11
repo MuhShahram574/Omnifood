@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/Check.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Datalist Example</title>
+  </head>
+  <body>
+    <form>
+      <label for="languages">Select a Language:</label>
+      <input list="languages" name="language" required />
+      <datalist id="languages">
+        <option value="English"></option>
+        <option value="Urdu"></option>
+        <option value="French"></option>
+        <option value="German"></option>
+      </datalist>
+      <ion-icon name="chevron-down-outline"></ion-icon>
+      <input type="submit" value="Submit" class="btn" />
+    </form>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- This is my Footer Section of Omnifood Project-->
+    <header>
+      <div class="logo">
+        <img
+          src="/Html/img/omnifood-logo.png"
+          alt="This is my logo"
+          class="logo"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <footer class="Footer-section">
+      <div class="container footer-col">
+        <div class="logo-col">
+          <div class="footer-logo">
+            <a href="#"
+              ><img src="/Html/img/omnifood-logo.png" alt="Omnifood-logo"
+            /></a>
+          </div>
+
+          <ul class="social-link">
+            <li>
+              <a href="#"><ion-icon name="logo-apple"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+          </ul>
+          <p class="footer-description">
+            Copyright © 2027 by Omnifood, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="contact-col">
+          <p class="Footer-heading">Contact us</p>
+          <p class="footer-description">
+            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+          </p>
+          <a href="#" class="Contact">0304-8023463</a>
+          <br />
+          <a href="#" class="Contact">hello@omnifood.com</a>
+        </div>
+        <div class="nav-col">
+          <p class="Footer-heading">Account</p>
+          <ul class="nav-col-ul">
+            <li><a href=""> Create Account</a></li>
+            <li><a href=""> Sign up</a></li>
+            <li><a href=""> iOS App</a></li>
+            <li><a href=""> Android app</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="Footer-heading">Company</p>
+          <ul class="nav-col-ul">
+            <li><a href=""> About Omnifood</a></li>
+            <li><a href=""> For Business</a></li>
+            <li><a href=""> Cooking Partners</a></li>
+            <li><a href=""> Careers </a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="Footer-heading">Resources</p>
+          <ul class="nav-col-ul">
+            <li><a href=""> Recipe directiry</a></li>
+            <li><a href=""> Help center</a></li>
+            <li><a href=""> Privacy & Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>This is my practice time</h2>
+    </footer>
+    <h3>This is animation to move content upside</h3>
+
+    <div  data-aos="fade-up 5s" data-aos-duration="1000" class=" content" >
+      Yeh aapka content hai jo neeche se upar aaye ga.
+    </div>
+    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+  </body>
+</html>

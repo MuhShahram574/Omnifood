@@ -1,0 +1,243 @@
+/* 
+
+---01 TYPOGRAPHY SYSTEM
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-Font Weight: 500
+Meadium:500
+Sami-Bold:700
+Bold:800
+
+
+-Line Height
+Default:1
+-1.1--primary-heading 
+1.6--For Paragraph
+
+-letter-spacing :
+0.75px
+
+-- 02 Color
+
+primary: #e67e22
+-Tints:#fff , #fdf2e9,
+
+-Shades:#cf711f, #b8651b
+
+-Accents:
+-Greys:
+#333
+#999
+-- 05 Shadow
+
+-- 06 BORDER RADIUS
+-9px
+
+-- 07 WHITESPACE
+
+-Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+a:focus {
+  transition: all 0.3s ease-out;
+  outline: none;
+  background-color: #f0b27a;
+  color: #fff !important;
+  padding: 2px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 1;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*////////////////////////////////*/
+/*- 01 GENRAL REUSEABLE STYLING */
+/*////////////////////////////////*/
+a {
+  line-height: 1.4;
+  transition: all 0.3s;
+}
+
+a:hover {
+  box-shadow: 0 1px #e67e22;
+}
+
+.primary-heading,
+.secondary-heading,
+.tertiary-heading,
+.btn,
+.subheading,a,
+p {
+  overflow: hidden;
+}
+
+/* ---------------------------- */
+/* Styling of Reuseable Grid */
+/* ---------------------------- */
+.container {
+  max-width: 120rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 4.8rem;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.align {
+  align-items: center;
+}
+
+.v-center {
+  justify-items: center;
+  justify-content: center;
+}
+
+.vertical-gap {
+  row-gap: 9.6rem;
+}
+
+/* ------------------------ */
+/* Styling of Headings */
+/* ------------------------ */
+
+.primary-heading {
+  font-size: 5.2rem;
+  color: #333;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 4.4rem;
+}
+
+.subheading {
+  display: inline-block;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 4.8rem;
+  margin-bottom: 2.8rem;
+  color: #b8651b;
+}
+
+.secondary-heading {
+  font-size: 4.4rem;
+  letter-spacing: -0.75px;
+  margin-bottom: 9.6rem;
+  font-weight: 700;
+}
+
+.tertiary-heading {
+  font-size: 2.9rem;
+  color: #333;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 4.4rem;
+}
+
+.Footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 3rem;
+}
+.footer-description {
+  font-size: 1.6rem;
+  display: inline-block;
+  color: #666;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.discription {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+/* ------------------------ */
+/* Styling of btn */
+/* ------------------------ */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 9px;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  transition-delay: 0s !important ;
+  color: #fff;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  transition-delay: 0s !important ;
+  color: #343a40;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0px 5px #fff;
+}
+/* button hover state  */
+.Btn-hover:active {
+  box-shadow: 0 0 0px 5px #f0b27a;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+#Meals- {
+  background-color: red;
+}
