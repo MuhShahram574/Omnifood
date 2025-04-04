@@ -1,0 +1,413 @@
+/* /////////////////////////////////////////// */
+/* changes when width is less then 1365px */
+/* /////////////////////////////////////////// */
+
+@media only screen and (max-width: 1370px) {
+  .primary-heading {
+    font-size: 4.4rem;
+    font-weight: 700;
+  }
+  .gallery-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .testimonial-section {
+    align-items: center;
+  }
+}
+/* /////////////////////////////////////////// */
+/* changes when width is less then 1200px */
+/* /////////////////////////////////////////// */
+
+@media only screen and (max-width: 1200px) {
+  .meals-attributes {
+    padding: 2.4rem 3rem;
+  }
+  .attributes {
+    padding-left: 1rem;
+  }
+  .testimonial-section {
+    grid-template-columns: 1fr;
+  }
+  .gallery-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .card {
+    padding: 0;
+  }
+}
+
+/* /////////////////////////////////////////// */
+/* changes when width is less then 995px */
+/* /////////////////////////////////////////// */
+
+@media only screen and (max-width: 995px) {
+  /*////////// General & Font Styling ////////// */
+  .secondary-heading {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+  .tertiary-heading {
+    font-size: 2rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+    padding: 8px 18px;
+  }
+
+  .step-number {
+    font-size: 6.4rem;
+  }
+
+  .meals-attributes,
+  .offer,
+  .description,
+  .booking-description {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  /*/////////////// Header styling ///////////////*/
+
+  .header {
+    flex-direction: column;
+    height: auto;
+
+  }
+
+  .logo {
+    margin: 2rem 0 2.4rem;
+  }
+  .header-img {
+    height: auto;
+    /* background-color: red; */
+
+    display: flex;
+    justify-self: center;
+  }
+  .delivered-customers-box {
+    margin-top: 2.4em;
+    justify-content: center;
+  }
+  /*//////////////// Hero's Section styling ////////////////*/
+  .hero {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  /*//////////////// Featured section ////////////////*/
+  .feature-logos img {
+    margin-bottom: 1.4rem;
+  }
+  .Featured {
+    font-size: 50%;
+  }
+
+  /*////////////// Meal's Section /////////////// */
+  .Meals-content {
+    grid-template-columns: 1fr 1fr;
+  }
+  .list {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    border: 2px solid #fae5d3;
+    padding: 2.4rem;
+    border-radius: 9px;
+    width: 30rem;
+  }
+  .Meals-title {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  /*//////////////// Pricing Section & Featured Row ////////////////*/
+
+  .pricing .box-1 {
+    padding-top: 0;
+  }
+  .card {
+    width: auto;
+    margin: auto;
+    justify-content: center;
+  }
+  .offers-list {
+    margin: 2rem 0 0 0;
+  }
+  .attributes {
+    padding: 0;
+    gap: 1.4rem;
+  }
+  .features-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature-icon {
+    padding: 0.8rem;
+    font-size: 2.8rem;
+  }
+
+  /*//////////////// Booking Section ////////////////*/
+
+  .booking-form {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  .booking-heading {
+    margin-bottom: 3rem;
+  }
+  .booking-container {
+    grid-template-columns: 2fr 1.3fr;
+  }
+  .box-1 {
+    padding: 3.8rem 2.6rem 0 3.2rem;
+  }
+
+  /*//////////////// Footer Section ////////////////*/
+
+  .Footer-section {
+    max-width: 80%;
+  }
+  .footer-col {
+    column-gap: 2rem;
+    row-gap: 6.4rem;
+    width: auto;
+    justify-self: center;
+    padding: 2rem;
+    margin: 0;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  }
+  .nav-col-ul li a,
+  .footer-description {
+    font-size: 1.4rem;
+  }
+  .feature-logos {
+    flex-wrap: wrap;
+  }
+}
+
+/* /////////////////////////////////////////// */
+/* changes when width is less then 768px */
+/* /////////////////////////////////////////// */
+@media only screen and (max-width: 768px) {
+  /*////////// General Styling //////////*/
+  .container {
+    padding: 2rem;
+    width: auto;
+  }
+  a {
+    font-size: 1.2rem;
+  }
+  .primary-heading {
+    font-size: 3.6rem;
+  }
+  .secondary-heading {
+    font-size: 2.4rem;
+  }
+  .tertiary-heading {
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
+  }
+
+  .step-number {
+    font-size: 5.4rem;
+  }
+  .discription,
+  .Author-job,
+  .meals-attributes,
+  .Footer-description {
+    font-size: 1.4rem;
+  }
+
+  /*////////// Featured & Meals Section //////////*/
+
+  .feature-logos {
+    flex-wrap: wrap;
+    margin-bottom: 1.4rem;
+  }
+
+  .Meals-title {
+    font-size: 1.8rem;
+  }
+
+  /*////////// Testimonial, Featured-Row & Booking Section //////////*/
+
+  .Featured {
+    font-size: 15%;
+  }
+
+  .gallery-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .booking-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*////////// Footer Section //////////*/
+
+  .footer-col {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4.4rem;
+    column-gap: 4.8rem;
+  }
+
+  .logo-col {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+
+  .contact-col {
+    grid-column: 4/-1;
+    grid-row: 2/3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+}
+
+/* /////////////////////////////////////////// */
+/* changes when width is less then 665px */
+/* /////////////////////////////////////////// */
+
+@media only screen and (max-width: 665px) {
+  /* Header  & hero's Section */
+  .main-nav ul {
+   display: none;
+  }
+  /* .main-nav{
+    
+  } */
+
+  .delivered-customers img {
+    height: 3.8rem;
+  }
+
+  .btn-box :first-child {
+    margin-bottom: 1rem;
+  }
+  .heros-section {
+    padding-top: 0;
+    margin-top: 6rem;
+  }
+
+  .hero{
+    padding: 1rem;
+  }
+  /* Featured Section */
+  .feature-logos {
+    flex-wrap: wrap;
+  }
+
+  .feature-logos img {
+    margin-bottom: 1.4rem;
+  }
+  /* How it works */
+
+  .direction-reverse {
+    flex-direction: column-reverse !important;
+  }
+
+  .Z-Patren {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Meals Section */
+  .Meals-section {
+    padding: 0;
+  }
+  .Meals-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Testimonial section */
+
+  .testimonial-box {
+    padding: 1.2rem;
+  }
+  .testimonial-box-2 {
+    grid-template-columns: 1fr;
+  }
+  .gallery-box {
+    gap: 1.2rem;
+  }
+
+  /* Pricing Section */
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .card-2::before {
+    top: 7%;
+    right: -18%;
+  }
+
+  /* Features-row section */
+
+  .features-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 4.8rem 0;
+  }
+  /* Booking Section section */
+  .booking-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 3rem;
+  }
+
+  .booking-container .box-1 {
+    padding: 1.2rem 2.4rem 0 2.4rem;
+  }
+  .booking-form {
+    margin-bottom: 2rem;
+  }
+  label {
+    margin-bottom: 1rem;
+  }
+  select {
+    margin-bottom: 1.2rem;
+  }
+  .booking-img {
+    grid-row: 1/2;
+  }
+
+  /* Footer Section */
+  .Footer-section {
+    max-width: 100%;
+    text-align: center;
+  }
+  .footer-col {
+    padding: 1.2rem;
+    gap: 1.2rem;
+  }
+  .footer-logo {
+    margin-bottom: 1.6rem;
+  }
+  .social-link {
+    justify-content: center;
+    margin-bottom: 3rem;
+    gap: 1rem;
+  }
+  .Footer-heading {
+    margin-bottom: 2.2rem;
+  }
+  .contact-col .footer-description {
+    margin-bottom: 2.4rem;
+  }
+}
+
